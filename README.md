@@ -1,2 +1,1 @@
-# LFS-loongson
-> 在3A3000主机上编译LFS制作成可正常运行的os。
+> Compiles LFS on 3A3000 host to make a MIPS architecture for the normal operation of LFS OS, MIPS architecture.
