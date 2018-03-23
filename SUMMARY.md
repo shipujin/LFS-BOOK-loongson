@@ -1,0 +1,88 @@
+# LFS-BOOK-loongson-8.2手册
+
+### 一. 续章
+  * [前言](README.md)
+  * [修订记录](revision.md)
+  * [如何贡献](contribute.md)
+  * [本书结构](SUMMARY.md)
+
+* [原、临时、目的编译链之间关系](compilationTools/README.md)
+  * [原编译链目的](compilationTools/originalCompilationTools.md)
+  * [临时编译链目的](compilationTools/temporaryCompileTools.md)
+  * [目的编译链目的](compilationTools/destinationCompilationTools.md)
+  * [原编译链与临时编译链关系](compilationTools/originalANDtemporary.md)
+  * [临时编译链与目的编译链关系](compilationTools/temporaryANDdestination.md)
+
+### 二. 创建临时编译链与辅助命令(构建临时系统)
+* [准备新分区](readyBuild/README.md)
+  * [宿主系统需求](readyBuild/HostSystemRequirements.md)
+  * [设置$LFS变量](readyBuild/setLFS.md)
+  * [创建新分区与文件系统](readyBuild/partition.md)
+  * [挂载新分区](readyBuild/mountPartition.md)
+
+* [软件包与补丁](package/README.md)
+  * [软件包与补丁](package/package.md)
+
+* [设置环境与测试SBU](setEnvironment/README.md)
+  * [创建工作目录与用户](setEnvironment/createDirUser.md)
+  * [设置环境](setEnvironment/setEnvironment.md)
+  * [关于SBU](setEnvironment/aboutSBU.md)
+
+* [构建临时编译链系统](makeTemporaryCompilation/README.md)
+  * [临时编译链目的](compilationTools/temporaryCompileTools.md)
+  * [Binutils-2.30-第一遍编译](makeTemporaryCompilation/binutilsPass1.md)
+  * [Gcc-7.30-第一遍编译](makeTemporaryCompilation/GccPass1.md)
+  * [Linux-4.15.3-API-Headers](makeTemporaryCompilation/LinuxAPIHeaders.md)
+  * [Glibc-2.27](makeTemporaryCompilation/Glibc.md)
+  * [Libstdc++-7.30](makeTemporaryCompilation/Libstdc++.md)
+  * [Binutils-2.30-第二遍编译](makeTemporaryCompilation/binutilsPass2.md)
+  * [Gcc-7.30-第二遍编译](makeTemporaryCompilation/GccPass2.md)
+  * [Ctl-core-8.6.8](makeTemporaryCompilation/Ctl.md)
+  * ...
+  * ...
+  * [清理无用内容](makeTemporaryCompilation/Stripping.md)
+  * [改变属主](makeTemporaryCompilation/changingOwnership.md)
+  * [备份tools工具包，以恢复实验环境](makeTemporaryCompilation/backupTools.md)
+
+### 三. 创建目的编译链与辅助命令(构建LFS系统)
+* [安装基本的系统软件](makeDestinationBuild/README.md)
+   * [目的编译链目的](compilationTools/destinationCompilationTools.md)
+   * [临时编译链与目的编译链关系](compilationTools/temporaryANDdestination.md)
+   * [挂载内核文件系统](makeDestinationBuild/mountKernelFS.md)
+   * [进入chroot环境](makeDestinationBuild/enterChroot.md)
+   * [创建必要的文件、目录、链接](makeDestinationBuild/createDirFileLn.md)
+   * [Linux-4.15.3-API-Headers](makeDestinationBuild/LinuxAPIHeaders.md)
+   * [Man-pages-3.79](makeDestinationBuild/ManPages.md)
+   * [Glibc-2.21](makeDestinationBuild/Glibc.md)
+   * [调整工具链](makeDestinationBuild/adjustTools.md)
+   * [Zlib-1.2.11](makeDestinationBuild/Zlib.md)
+   * ..
+   * ..
+   * [vim-8.0.586](makeDestinationBuild/vim.md)
+   * [调试符号介绍与清理无用内容](makeDestinationBuild/debugStripping.md)
+* [基本的系统配置](basicSystemConfiguration/README.md)
+  * [通用网络配置](basicSystemConfiguration/netConfiguration.md)
+  * [LFS系统中的设备和模块控制](basicSystemConfiguration/devicesModuleControl.md)
+  * [定制设备的符号链接](basicSystemConfiguration/devicesLn.md)
+  * [配置系统时钟](basicSystemConfiguration/clockConfiguration.md)
+  * [配置Linux主控制台](basicSystemConfiguration/mainConsoleConfiguration.md)
+  * [配置系统本地化](basicSystemConfiguration/localizeConfiguration.md)
+  * [创建/etc/inputrc文件](basicSystemConfiguration/creationInputrcFile.md)
+  * [创建/etc/shell文件](basicSystemConfiguration/creationShellFile.md)
+  * [使用及配置Systemd](basicSystemConfiguration/SystemdConfiguration.md)
+* [让LFS系统可引导](makeSystemBootable/README.md)
+  * [创建/etc/fstab文件](makeSystemBootable/creationFstabFile.md)
+  * [创建/etc/fstab文件](makeSystemBootable/creationFstabFile.md)
+  * [编译loongson发布的稳定版内核](makeSystemBootable/makeKernel.md)
+  * [使用loongson发布的GROUB并设置引导](makeSystemBootable/makeKernel.md)
+* [最后创建文件结束](endCreation/README.md)
+  * [结束](endCreation/end.md)
+  * [为LFS用户数添砖加瓦](endCreation/addUserNumber.md)
+  * [重启系统](endCreation/restartSystem.md)
+
+### [附录](appendix/README.md)
+  * [缩略词和术语](appendix/terms.md)
+  * [依赖关系](appendix/dependencies.md)
+  * [LFS许可协议](appendix/licenseAgreement.md)
+
+
