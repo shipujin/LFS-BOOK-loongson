@@ -18,14 +18,17 @@ $ git config user.email "youremail"
 
 ```sh
 $ git commit -m "add compil content"
-$ git push originLFS master
+$ git push origin master
 ```
 
 最后，在 GitHub 网站上提交 pull request 即可。
 
 另外，建议定期使用项目仓库内容更新自己仓库内容。
 ```sh
-$ git remote add originLFS https://github.com/lina-not-linus/LFS-BOOK-loongson
-$ git push originLFS master
+$ git remote add upstream https://github.com/lina-not-linus/LFS-BOOK-loongson
+$ git fetch upstream
+$ git checkout master
+$ git rebase upstream/master
+$ git push origin master
 ```
 
