@@ -112,7 +112,7 @@
    * [Xz-5.2.3](makeDestinationBuild/Xz-5.2.3.md)
    * [Kmod-25](makeDestinationBuild/Kmod-25.md)
    * [Gettext-0.19.8.1](makeDestinationBuild/Gettext-0.19.8.1.md)
-   * [Libelf 0.170](makeDestinationBuild/Libelf 0.170.md)
+   * [Libelf-0.170](makeDestinationBuild/Libelf-0.170.md)
    * [Libffi-3.2.1](makeDestinationBuild/Libffi-3.2.1.md)
    * [OpenSSL-1.1.0g](makeDestinationBuild/OpenSSL-1.1.0g.md)
    * [Python-3.6.4](makeDestinationBuild/Python-3.6.4.md)
