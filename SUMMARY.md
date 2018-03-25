@@ -65,7 +65,7 @@
   * [Backup the tools toolkit to restore the experimental environment](makeTemporaryCompilation/backupTools.md)
 
 ### 三. Create the destination compile chain and the auxiliary command (build the LFS system)
-* [安装基本的系统软件](makeDestinationBuild/README.md)
+* [Install basic system software.](makeDestinationBuild/README.md)
    * [Install basic system software](compilationTools/destinationCompilationTools.md)
    * [The temporary compile chain is associated with the destination](compilationTools/temporaryANDdestination.md)
    * [Mount the kernel file system](makeDestinationBuild/mountKernelFS.md)

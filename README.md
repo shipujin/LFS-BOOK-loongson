@@ -1,6 +1,6 @@
 # LFS-BOOK-loongson-8.2 
-> * Language type : [English](README.md)
-> * Language type : [简体中文](zh-cn/README.md)
+> * Language : [English](README.md)
+> * Language : [简体中文](zh-cn/README.md)
 
 0.1.0
 
