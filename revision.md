@@ -1,4 +1,4 @@
-# 版本历史
+# Version history
 * 0.1.0: 2018-03-23
-    * 创建主干目录结构；
-    * 实验验证成功。 
+    * create trunk directory structure;
+    * the experiment proved successful.
