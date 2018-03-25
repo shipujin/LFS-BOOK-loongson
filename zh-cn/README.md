@@ -10,14 +10,14 @@ LFS-BOOK-loongson-8.2 的实验环境是龙芯 loongson 3A3000 的硬件环境�
 ## 阅读使用
 本书适用于对从源码编译Linux系统、并且对Linux系统感兴趣，且具备一定Linux使用和编译知识的读者；无技术背景的读者也可以从中了解Linux系统编译、库与系统结构的内容。
 
-* 在线阅读：[GitHub](https://github.com/lina-not-linus/LFS-BOOK-loongson/blob/master/SUMMARY.md)
+* 在线阅读：[GitHub](https://github.com/lina-not-linus/LFS-BOOK-loongson/blob/master/zh-cn/SUMMARY.md)
 
 如果发现疏漏，欢迎提交到 [勘误表](https://github.com/lina-not-linus/LFS-BOOK-loongson/wiki/%E3%80%8ALFS-BOOK-loongson-8.2-version%E3%80%8B%E5%8B%98%E8%AF%AF%E8%A1%A8)。
 
 ## 参与贡献
-自主可控的理念的深入人心，loongson 生态环境也在蓬勃成长。欢迎 [参与维护项目](contribute.md)。
+自主可控的理念的深入人心，loongson 生态环境也在蓬勃成长。欢迎 [参与维护项目](zh-cn/contribute.md)。
 
-* [修订记录](revision.md)
+* [修订记录](zh-cn/revision.md)
 * [贡献者名单](https://github.com/lina-not-linus/LFS-BOOK-loongson/graphs/contributors)
 
 
