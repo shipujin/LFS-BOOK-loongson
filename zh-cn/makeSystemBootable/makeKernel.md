@@ -2,7 +2,7 @@
 =========================== 
 # 获取内核
 
-由于从[Kernel.org](https://www.kernel.org/)下载的内核可能不包含最新的补丁，所以这里使用从[loongson社区下载的稳定版内核](https://github.com/loongson-community/linux-stable)进行接下来的操作。获取方法可以是直接从社区页面上下载Zip压缩包，也可通过git clone命令获取，例如获取4.9分支最新稳定版（本教程使用的版本是4.9.88）：
+由于从[Kernel.org](https://www.kernel.org/)下载的内核可能不包含最新的补丁，所以这里使用从[loongson社区Github内核项目](https://github.com/loongson-community/linux-stable)页面上来进行接下来的操作。获取方法可以是直接从链接页面上下载Zip压缩包，也可通过git clone命令获取，例如获取4.9分支最新稳定版（本教程使用的版本是4.9.88）：
 ```
 # git clone -b rebase-4.9 https://github.com/loongson-community/linux-stable.git  
 # cd linux-stable #进入内核目录
