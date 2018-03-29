@@ -6,7 +6,7 @@
   * [How to contribute](contribute.md)
   * [Structure of the book](SUMMARY.md)
 
-### 二. System startup process
+### 二. 系统启动过程
 * [System startup process](osStart/README.md)
   * [The BIOS boot process](osStart/BiosStart.md)
   * [The BIOS interacts with the operating system](osStart/BiosInteraction.md)
@@ -14,7 +14,7 @@
   * [GRUB process analysis](grubStart/GroubStart.md)
   * [File analysis in the /boot/grub directory](grubStart/GroubFile.md)
   * [Stage class file analysis.](grubStart/StageFile.md)
-  * [The shell simulates grubs entire process](grubStart/GrubSimulate.md)
+  * [The shell simulates grub's entire process](grubStart/GrubSimulate.md)
   * [Grub configuration file](grubStart/GrubConfig.md)
   * [Error troubleshooting at each stage of GRUB.](grubStart/GrubError.md)
   * [Solve the problem that cannot be turned on](grubStart/GrubError.md)
@@ -41,7 +41,7 @@
   * [The original compilation chain is associated with the temporary build chain](compilationTools/originalANDtemporary.md)
   * [The temporary compile chain is associated with the destination](compilationTools/temporaryANDdestination.md)
 
-### 四. Create temporary build chains and auxiliary commands (build temporary systems)
+### 二. Create temporary build chains and auxiliary commands (build temporary systems)
 * [Prepare new partitions](readyBuild/README.md)
   * [Host system requirements](readyBuild/HostSystemRequirements.md)
   * [Set the $LFS variable](readyBuild/setLFS.md)
@@ -92,7 +92,7 @@
   * [Change the owner](makeTemporaryCompilation/changingOwnership.md)
   * [Backup the tools toolkit to restore the experimental environment](makeTemporaryCompilation/backupTools.md)
 
-### 五. Create the destination compile chain and the auxiliary command (build the LFS system)
+### 三. Create the destination compile chain and the auxiliary command (build the LFS system)
 * [Install basic system software.](makeDestinationBuild/README.md)
    * [Install basic system software](compilationTools/destinationCompilationTools.md)
    * [The temporary compile chain is associated with the destination](compilationTools/temporaryANDdestination.md)
