@@ -29,9 +29,9 @@
   * [Init run process analysis](initrdInit/initCourse.md)
   * [The directory file system created by the init process, the related file system configuration](initrdInit/initMkdirFS.md)
   * [Preparation for loading the entity operating system](initrdInit/enterOsPrepare.md)
-* [The init operation in the system](OsInit/README.md)
-  * [Now init is not init in initrd](OsInit/notInit.md)
-  * [The basic structure of init](OsInit/initStructure.md)
+* [The init operation in the system](osInit/README.md)
+  * [Now init is not init in initrd](osInit/notInit.md)
+  * [The basic structure of init](osInit/initStructure.md)
 
 ### 三. The relationship and purpose of the compile chain
 * [The relationship between the original, temporary, and destination compilation chains](compilationTools/README.md)

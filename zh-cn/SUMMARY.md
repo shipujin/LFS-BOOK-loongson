@@ -29,9 +29,9 @@
   * [init运行过程分析](initrdInit/initCourse.md)
   * [init过程创建的各目录文件系统，相关文件系统配置](initrdInit/initMkdirFS.md)
   * [为加载实体操作系统做的准备操作](initrdInit/enterOsPrepare.md)
-* [系统中的init操作](OsInit/README.md)
-  * [现在的init不是initrd中的init](OsInit/notInit.md)
-  * [init的基本结构](OsInit/initStructure.md)
+* [系统中的init操作](osInit/README.md)
+  * [现在的init不是initrd中的init](osInit/notInit.md)
+  * [init的基本结构](osInit/initStructure.md)
 
 ### 三. 编译链之间的关系和目的
 * [原、临时、目的编译链之间关系](compilationTools/README.md)
