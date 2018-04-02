@@ -6,6 +6,34 @@
   * [如何贡献](contribute.md)
   * [本书结构](SUMMARY.md)
 
+### 二. 系统启动过程
+* [系统启动过程分析](osStart/README.md)
+  * [BIOS启动的过程](osStart/BiosStart.md)
+  * [BIOS与操作系统交互](osStart/BiosInteraction.md)
+* [开机管理程序](grubStart/README.md)
+  * [GRUB过程分析](grubStart/GroubStart.md)
+  * [/boot/grub目录内文件分析](grubStart/GroubFile.md)
+  * [stage类文件分析](grubStart/StageFile.md)
+  * [shell模拟grub的整个过程](grubStart/GrubSimulate.md)
+  * [grub配置文件](grubStart/GrubConfig.md)
+  * [GRUB各阶段出现的错误排查](grubStart/GrubError.md)
+  * [解决无法开机的状况](grubStart/GrubError.md)
+* [kernel与initrd文件](kernelInitrd/README.md)
+  * [开机界面时的各模式](kernelInitrd/grubEdit_eac.md)
+  * [grub时出现的kernel、initrd的位置](kernelInitrd/grubEdit_e.md)
+  * [kernel编译更新模块及参数](kernelInitrd/makeKernel.md)
+  * [initrd的基本信息](kernelInitrd/initrdInformation.md)
+  * [打开initrd](kernelInitrd/openInitrd.md)
+  * [分析init运行过程与修改initrd文件](kernelInitrd/initCourseModify.md)
+* [initrd中的init](initrdInit/README.md)
+  * [init运行过程分析](initrdInit/initCourse.md)
+  * [init过程创建的各目录文件系统，相关文件系统配置](initrdInit/initMkdirFS.md)
+  * [为加载实体操作系统做的准备操作](initrdInit/enterOsPrepare.md)
+* [系统中的init操作](osInit/README.md)
+  * [现在的init不是initrd中的init](osInit/notInit.md)
+  * [init的基本结构](osInit/initStructure.md)
+
+### 三. 编译链之间的关系和目的
 * [原、临时、目的编译链之间关系](compilationTools/README.md)
   * [原编译链目的](compilationTools/originalCompilationTools.md)
   * [临时编译链目的](compilationTools/temporaryCompileTools.md)
@@ -13,7 +41,7 @@
   * [原编译链与临时编译链关系](compilationTools/originalANDtemporary.md)
   * [临时编译链与目的编译链关系](compilationTools/temporaryANDdestination.md)
 
-### 二. 创建临时编译链与辅助命令(构建临时系统)
+### 四. 创建临时编译链与辅助命令(构建临时系统)
 * [准备新分区](readyBuild/README.md)
   * [宿主系统需求](readyBuild/HostSystemRequirements.md)
   * [设置$LFS变量](readyBuild/setLFS.md)
@@ -49,6 +77,7 @@
   * [Diffutils-3.6](makeTemporaryCompilation/Diffutils.md)
   * [File-5.32](makeTemporaryCompilation/File.md)
   * [Findutils-4.6.0](makeTemporaryCompilation/Findutils.md)
+  * [Findutils-4.6.0](makeTemporaryCompilation/Findutils.md)
   * [Gawk-4.2.0](makeTemporaryCompilation/Gawk.md)
   * [Gettext-0.19.8.1](makeTemporaryCompilation/Gettext.md)
   * [Grep-3.1](makeTemporaryCompilation/Grep.md)
@@ -64,7 +93,7 @@
   * [改变属主](makeTemporaryCompilation/changingOwnership.md)
   * [备份tools工具包，以恢复实验环境](makeTemporaryCompilation/backupTools.md)
 
-### 三. 创建目的编译链与辅助命令(构建LFS系统)
+### 五. 创建目的编译链与辅助命令(构建LFS系统)
 * [安装基本的系统软件](makeDestinationBuild/README.md)
    * [目的编译链目的](compilationTools/destinationCompilationTools.md)
    * [临时编译链与目的编译链关系](compilationTools/temporaryANDdestination.md)
@@ -162,9 +191,8 @@
   * [为LFS用户数添砖加瓦](endCreation/addUserNumber.md)
   * [重启系统](endCreation/restartSystem.md)
 
-### [附录](appendix/README.md)
+### 六. [附录](appendix/README.md)
   * [缩略词和术语](appendix/terms.md)
   * [依赖关系](appendix/dependencies.md)
   * [LFS许可协议](appendix/licenseAgreement.md)
-
 
