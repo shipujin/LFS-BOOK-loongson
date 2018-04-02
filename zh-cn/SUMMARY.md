@@ -185,7 +185,7 @@
   * [创建/etc/fstab文件](makeSystemBootable/creationFstabFile.md)
   * [创建/etc/fstab文件](makeSystemBootable/creationFstabFile.md)
   * [编译loongson发布的稳定版内核](makeSystemBootable/makeKernel.md)
-  * [使用loongson发布的GRUB并设置引导](makeSystemBootable/makeKernel.md)
+  * [使用loongson发布的GRUB并设置引导](makeSystemBootable/modifyLoongsonGRUB.md)
 * [最后创建文件结束](endCreation/README.md)
   * [结束](endCreation/end.md)
   * [为LFS用户数添砖加瓦](endCreation/addUserNumber.md)

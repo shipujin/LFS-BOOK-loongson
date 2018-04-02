@@ -183,7 +183,7 @@
 * [Let the LFS system boot](makeSystemBootable/README.md)
   * [Create /etc/fstab file](makeSystemBootable/creationFstabFile.md)
   * [Compile the stable kernel released by loongson](makeSystemBootable/makeKernel.md)
-  * [Use the GRUB released by loongson and set the boot](makeSystemBootable/makeKernel.md)
+  * [Use the GRUB released by loongson and set the boot](makeSystemBootable/modifyLoongsonGRUB.md)
 * [The final creation file is finished](endCreation/README.md)
   * [The end of the](endCreation/end.md)
   * [Add to the number of LFS users](endCreation/addUserNumber.md)
