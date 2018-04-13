@@ -172,6 +172,7 @@
    * [Vim-8.0.586](makeDestinationBuild/Vim-8.0.586.md)
    * [调试符号介绍与清理无用内容](makeDestinationBuild/debugStripping.md)
 * [基本的系统配置](basicSystemConfiguration/README.md)
+  * [系统配置概览](basicSystemConfiguration/config.md)
   * [通用网络配置](basicSystemConfiguration/netConfiguration.md)
   * [LFS系统中的设备和模块控制](basicSystemConfiguration/devicesModuleControl.md)
   * [定制设备的符号链接](basicSystemConfiguration/devicesLn.md)
