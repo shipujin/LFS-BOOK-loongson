@@ -22,7 +22,7 @@
 ```
 将文件复制好后就开始进入内核配置界面对内核进行内部配置了：
 ```
-# make menconfig
+# make menuconfig
 ```
 ![](https://github.com/TaoistFox/LFS-BOOK-loongson/blob/master/zh-cn/_images/makeKernel_make_menuconfig.png)
 
