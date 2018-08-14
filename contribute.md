@@ -1,5 +1,5 @@
 ## Participate in the contribution
-Contributor [list](https://github.com/yeasy/blockchain_guide/graphs/contributors).
+Contributor [list](https://github.com/lina-not-linus/LFS-BOOK-loongson/graphs/contributors).
 
 Building a system from source code is a cool thing to do, and you're welcome to try to compile Linux using the loongson host MIPS architecture.
 
